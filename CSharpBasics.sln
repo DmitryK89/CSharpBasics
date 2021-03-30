@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics", "CSharpBasics\CSharpBasics.csproj", "{47640B75-377F-40BD-9B58-B445546779BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitSampleProject", "XUnitSampleProject\XUnitSampleProject.csproj", "{3302D106-0A17-4725-BCD7-B8F21D656EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutshell", "Nutshell\Nutshell.csproj", "{11AFBAED-7691-400E-817D-AED85DD7419C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{47640B75-377F-40BD-9B58-B445546779BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47640B75-377F-40BD-9B58-B445546779BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47640B75-377F-40BD-9B58-B445546779BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47640B75-377F-40BD-9B58-B445546779BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3302D106-0A17-4725-BCD7-B8F21D656EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3302D106-0A17-4725-BCD7-B8F21D656EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3302D106-0A17-4725-BCD7-B8F21D656EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3302D106-0A17-4725-BCD7-B8F21D656EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AFBAED-7691-400E-817D-AED85DD7419C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AFBAED-7691-400E-817D-AED85DD7419C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AFBAED-7691-400E-817D-AED85DD7419C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AFBAED-7691-400E-817D-AED85DD7419C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
