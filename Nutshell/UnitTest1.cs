@@ -6,7 +6,7 @@ namespace Nutshell
 {
     public static class Test
     {
-       public static Dictionary<long, string> Cache = new Dictionary<long, string>();
+        public static Dictionary<long, string> Cache { get; set; } = new Dictionary<long, string>();
     }
     
     public class UnitTest1

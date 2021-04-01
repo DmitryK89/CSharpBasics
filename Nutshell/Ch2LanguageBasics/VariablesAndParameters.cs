@@ -3,16 +3,6 @@ using Xunit;
 
 namespace Nutshell.Ch2LanguageBasics
 {
-    class Foo
-    {
-        StringBuilder sb;
- 
-        public Foo (string initialValue)
-        {
-            sb = new (initialValue);
-        }
-    }
-
     public class VariablesAndParameters
     {
         private int Factorial(int x)
