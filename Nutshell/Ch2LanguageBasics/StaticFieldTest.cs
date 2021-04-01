@@ -1,22 +1,23 @@
 ﻿using Xunit;
 
-namespace Nutshell.Ch2LanguageBasics.Part1TypeBasic
+namespace Nutshell.Ch2LanguageBasics
 {
-    public class Panda
-    {
-        public string Name { get; } //InstanceField
-     
-        public static int Population { get; private set; } //StaticFields
-
-        public Panda(string name)
-        {
-            Name = name;
-            Population++;
-        }
-    }
-    
+   
     public class StaticFieldTest
     {
+        private class Panda
+        {
+            public string Name { get; } //InstanceField
+     
+            public static int Population { get; private set; } //StaticFields
+
+            public Panda(string name)
+            {
+                Name = name;
+                Population++;
+            }
+        }
+        
         [Fact]
         public void CustomTypeBasicFunctionality()
         {
