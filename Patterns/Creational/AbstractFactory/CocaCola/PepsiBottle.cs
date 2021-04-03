@@ -1,8 +1,8 @@
 ﻿namespace Patterns.Creational.AbstractFactory.CocaCola
 {
-    public class PepsiBottle : AbstractBottle
+    public class PepsiBottle : IBottle
     {
-        public override string Interact(AbstractWater water)
+        public string Interact(IWater water)
         {
             return "Pepsi";
         }

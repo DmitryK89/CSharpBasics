@@ -2,10 +2,10 @@
 {
     public class Client
     {
-        private AbstractWater _water;
-        private AbstractBottle _bottle;
+        private IWater _water;
+        private IBottle _bottle;
 
-        public Client(AbstractFactory factory)
+        public Client(IFactory factory)
         {
             _water = factory.CreateWater();
             _bottle = factory.CreateBottle();

@@ -2,8 +2,8 @@
 
 namespace Patterns.Creational.AbstractFactory.CocaCola
 {
-    public abstract class AbstractBottle
+    public interface IBottle
     {
-        public abstract string Interact(AbstractWater water);
+        public string Interact(IWater water);
     }
 }

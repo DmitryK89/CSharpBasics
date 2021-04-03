@@ -1,13 +1,13 @@
 ﻿namespace Patterns.Creational.AbstractFactory.CocaCola
 {
-    public class PepsiFactory : AbstractFactory
+    public class PepsiFactory : IFactory
     {
-        public override AbstractWater CreateWater()
+        public IWater CreateWater()
         {
             return new PepsiWater();;
         }
 
-        public override AbstractBottle CreateBottle()
+        public IBottle CreateBottle()
         {
             return new PepsiBottle();
         }

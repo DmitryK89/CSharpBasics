@@ -1,6 +1,6 @@
 ﻿namespace Patterns.Creational.AbstractFactory.CocaCola
 {
-    public class PepsiWater : AbstractWater
+    public class PepsiWater : IWater
     {
         
     }
