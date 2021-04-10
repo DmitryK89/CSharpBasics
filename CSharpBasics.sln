@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL", "SQL\SQL.csproj", "{7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{ED52C363-4563-4972-A22C-576E85DFEDF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSamples", "WebSamples\WebSamples.csproj", "{F392C4DB-3538-4596-A1A1-27998B3F8ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{ED52C363-4563-4972-A22C-576E85DFEDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED52C363-4563-4972-A22C-576E85DFEDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED52C363-4563-4972-A22C-576E85DFEDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F392C4DB-3538-4596-A1A1-27998B3F8ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F392C4DB-3538-4596-A1A1-27998B3F8ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F392C4DB-3538-4596-A1A1-27998B3F8ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F392C4DB-3538-4596-A1A1-27998B3F8ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
